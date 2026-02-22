@@ -1,0 +1,87 @@
+extends ../layouts/LayoutDocs
+
+
+prepend styles 
+
+prepend scripts
+
+
+append variables
+  - var pageTitle = 'Changelog'
+  - var pageDes = 'Evolution of your hideaway'
+
+append docs 
+
+  .card.mb-3 
+    .card-header.bg-200
+      h5.mb-2
+        code.fw-bold.fs-8 v2.1.0
+        |  - Maintenance Update
+      p.mb-0 21 December, 2025
+    .card-body
+      h5.fs-9 New 
+      ul.bullet-inside.ps-0
+        li Page: 
+          code public/components/form-processor.html 
+
+      h5.fs-9.mt-3 Update
+      ul.bullet-inside.ps-0 
+        li Package: 
+          code bigpicutre 
+          |  from 
+          code 2.6.2  
+          |  to
+          code 2.6.4
+        li Package: 
+          code bootstrap 
+          |  from 
+          code 5.3.2  
+          |  to
+          code 5.3.8
+        li Package: 
+          code prismjs 
+          |  from 
+          code 1.29.0  
+          |  to
+          code 1.30.0
+        li Package: 
+          code swiper 
+          |  from 
+          code 11.0.6  
+          |  to
+          code 12.0.3
+        li Page: removed 
+          code public/components/smtp.html 
+        li JS: 
+          code src/js/form-processor.js 
+        li JS: Google map has been updated to V3 API in 
+          code src/js/googleMap.js
+        li Docs: 
+          code Google Map
+        li 
+          code Swiper.js 
+          |  navigation icon has been replaced with 
+          code fontawesome 
+          |  icon in all occurrences. 
+      h5.fs-9.mt-3 Fix 
+      ul.bullet-inside.ps-0
+        li Minor bug fixes. 
+
+
+  .card.mb-3 
+    .card-header.bg-200
+      h5.mb-2
+        code.fw-bold.fs-8 v2.0.0
+        |  - Initial Release
+      p.mb-0 08 August, 2024
+    .card-body
+      p.mb-0 Converted bootstrap 4.x to bootstrap 5.x
+
+  .card
+    .card-header.bg-200
+      h5.mb-2
+        code.fw-bold.fs-8 v1.0.0
+        |  - Initial Release
+      p.mb-0  31 December, 2018
+    .card-body
+      p.mb-0 Nothing to see here.

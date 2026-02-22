@@ -1,0 +1,16 @@
+.Bttmindex {
+    color: black !important;
+} 
+.Navbttn:hover {
+    color: #000000 !important;
+    background-color: rgb(255, 255, 255);
+    border-radius: 25px;
+    
+}
+.Navbttn {
+    background-color: rgb(255, 255, 255, 0);
+    border-radius: 25px; 
+}
+.FooterText {
+    color: black !important;
+}
